@@ -88,10 +88,11 @@ width: 1000px;
   justify-content: center;
 }
 .imgcontrol{
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
-  
+justify-content: space-evenly;
+
 }
 .teaimag{
   height: 200px;
@@ -103,9 +104,7 @@ width: 1000px;
   background-image: url("../images/locations.jpg");
 background-repeat: no-repeat;
 height: 500px;
-width: 1300px;
-  margin: 0px auto;
-
+width: 1200px;
 
 }
 .Squares{
@@ -131,16 +130,15 @@ justify-content: center;
 .makerow{
   display: flex;
   flex-direction: row;
-
   margin-top: 50px;
 }
+
 .Footerbkgrd{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
   background-color: Black;
-
 
 }
 .Footer{
